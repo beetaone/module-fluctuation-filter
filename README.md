@@ -4,7 +4,7 @@
 | ------------ | ---------------------------------------------------------------- |
 | name         | Fluctuation Filter                                               |
 | version      | v1.0.1                                                           |
-| GitHub       | [weevenetwork/fluctuation-filter](https://hub.docker.com/r/weevenetwork/fluctuation-filter) |
+| GitHub       | [beetaone/fluctuation-filter](https://hub.docker.com/r/beetaone/fluctuation-filter) |
 | authors      | Mithila Ghuge, Paul Gaiduk                                          |
 
 ***
@@ -27,7 +27,7 @@ This is a Python Fluctuation Filter module and it is used to eliminate unwanted 
 
 ## Module Variables
 
-There are 5 module variables that are required by each module to correctly function within weeve ecosystem. In development, these variables can overridden for testing purposes. In production, these variables are set by weeve Agent.
+There are 5 module variables that are required by each module to correctly function within beetaone ecosystem. In development, these variables can overridden for testing purposes. In production, these variables are set by beetaone Agent.
 
 | Environment Variables | type   | Description                                       |
 | --------------------- | ------ | ------------------------------------------------- |
@@ -106,4 +106,4 @@ Expected Output : (24,21,25)
 
 If Send_on_change == False then
 Expected Output :(x,x,x,x,24,24,24,24,21,21,21,21,21,25)
-```
+`````
